@@ -1,0 +1,70 @@
+aid: glassfish
+name: Eclipse GlassFish
+description: >-
+  Eclipse GlassFish is the open-source reference implementation of the
+  Jakarta EE platform, formerly owned by Sun/Oracle and now stewarded by
+  the Eclipse Foundation. GlassFish is a lightweight Java application server
+  that ships a full Jakarta EE runtime (Servlet, JAX-RS, CDI, JPA, EJB,
+  WebSocket, JMS, Concurrency, etc.) and exposes a built-in REST management
+  API on the DAS (Domain Administration Server) for administering domains,
+  applications, resources, monitoring data, and configuration. The
+  management API is part of the server itself rather than a public hosted
+  service.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Application Server
+  - Jakarta EE
+  - Java EE
+  - Open Source
+  - Eclipse Foundation
+  - Servlet Container
+  - Reference Implementation
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/glassfish/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: glassfish:rest-management-api
+    name: GlassFish REST Management API
+    description: >-
+      Built-in REST administration API exposed by the GlassFish Domain
+      Administration Server (DAS) for managing domains, applications, JDBC
+      and JMS resources, clusters, monitoring data, and configuration.
+      Served from the running GlassFish server (default admin listener on
+      port 4848) and authenticated with admin credentials. Useful for
+      scripting deployments and CI/CD automation.
+    humanURL: https://glassfish.org/documentation.html
+    baseURL: https://HOSTNAME:4848/management/domain
+    tags:
+      - Server Management
+      - Administration
+      - Monitoring
+      - CI/CD
+    properties:
+      - type: Documentation
+        url: https://glassfish.org/documentation.html
+      - type: GitHub Repository
+        url: https://github.com/eclipse-ee4j/glassfish
+      - type: Administration Guide
+        url: https://eclipse-ee4j.github.io/glassfish/docs/latest/administration-guide.html
+
+common:
+  - type: Website
+    url: https://glassfish.org
+  - type: Documentation
+    url: https://glassfish.org/documentation.html
+  - type: Downloads
+    url: https://glassfish.org/download.html
+  - type: GitHub Organization
+    url: https://github.com/eclipse-ee4j
+  - type: GitHub Repository
+    url: https://github.com/eclipse-ee4j/glassfish
+  - type: Issue Tracker
+    url: https://github.com/eclipse-ee4j/glassfish/issues
+  - type: Mailing List
+    url: https://accounts.eclipse.org/mailing-list/glassfish-dev
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
