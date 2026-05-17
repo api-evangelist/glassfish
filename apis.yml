@@ -45,7 +45,7 @@ apis:
     properties:
       - type: Documentation
         url: https://glassfish.org/documentation.html
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/eclipse-ee4j/glassfish
       - type: Administration Guide
         url: https://eclipse-ee4j.github.io/glassfish/docs/latest/administration-guide.html
@@ -57,9 +57,9 @@ common:
     url: https://glassfish.org/documentation.html
   - type: Downloads
     url: https://glassfish.org/download.html
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/eclipse-ee4j
-  - type: GitHub Repository
+  - type: GitHubRepository
     url: https://github.com/eclipse-ee4j/glassfish
   - type: Issue Tracker
     url: https://github.com/eclipse-ee4j/glassfish/issues
