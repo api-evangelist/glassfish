@@ -51,6 +51,8 @@ apis:
         url: https://eclipse-ee4j.github.io/glassfish/docs/latest/administration-guide.html
 
 common:
+  - type: DomainSecurity
+    url: security/glassfish-domain-security.yml
   - type: Website
     url: https://glassfish.org
   - type: Documentation
@@ -65,6 +67,8 @@ common:
     url: https://github.com/eclipse-ee4j/glassfish/issues
   - type: Mailing List
     url: https://accounts.eclipse.org/mailing-list/glassfish-dev
+  - url: https://glassfish.org/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
