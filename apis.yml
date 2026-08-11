@@ -62,6 +62,12 @@ apis:
         url: https://eclipse-ee4j.github.io/glassfish/docs/latest/administration-guide.html
 
 common:
+  - type: Releases
+    url: https://github.com/eclipse-ee4j/glassfish/releases
+  - type: CodeOfConduct
+    url: https://github.com/eclipse-ee4j/.github/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/eclipse-ee4j/glassfish/blob/main/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/glassfish-domain-security.yml
   - type: Website
